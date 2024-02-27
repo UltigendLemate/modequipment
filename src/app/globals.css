@@ -34,7 +34,7 @@
     --border: 228 12.3% 89.52%;
     --input: 228 12.3% 89.52%;
 
-    --primary: 228 73% 13%;
+    --primary: 239 51% 38%;
     --primary-foreground: 228 1.46% 91.3%;
 
     --secondary: 228 3.65% 95.65%;
@@ -50,4 +50,9 @@
 
     --radius: 0.5rem;
   }
+}
+
+.hero{
+  background : url("/4.jpg") no-repeat center center/cover;
+  backdrop-filter: opacity(0.1);
 }
