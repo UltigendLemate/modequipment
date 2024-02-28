@@ -1,3 +1,5 @@
+'use client'
+
 import Navbar from "@/components/Navbar";
 import Heading from "@/components/ui/heading";
 
@@ -6,6 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 
 export default function Clients() {
+    
 
     return (
         <>
@@ -17,8 +20,8 @@ export default function Clients() {
                 <Heading heading="Our Clients" text="Built on trust, driven by results." />
 
                 <Tabs defaultValue="account" className="w-full text-center">
-                    <TabsList className="text-xl px-2 py-6">
-                        <TabsTrigger value="hotels" className="">Hotels</TabsTrigger>
+                    <TabsList className="">
+                        <TabsTrigger value="hotels" id="hotels" className="active">Hotels</TabsTrigger>
                         <TabsTrigger value="restaurants">Restaurants</TabsTrigger>
                         <TabsTrigger value="hospitals">Healthcare</TabsTrigger>                     
                         <TabsTrigger value="colleges">Education</TabsTrigger>
@@ -92,13 +95,6 @@ export default function Clients() {
                     </TabsContent>
 
                 </Tabs>
-
-
-
-
-                
-
-
             </main>
         </>
     )
