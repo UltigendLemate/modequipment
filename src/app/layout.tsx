@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${mont.variable} ${poppins.variable}`} lang="en">
-      <body >{children}</body>
+      <body className={`${poppins.className} bg-background text-foreground`}>{children}</body>
     </html>
   );
 }
