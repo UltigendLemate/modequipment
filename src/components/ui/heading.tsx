@@ -6,7 +6,7 @@ export default function Heading({heading, text}: {heading: string, text: string}
                 <h1 className="text-2xl uppercase text-nowrap text-foreground">{heading}</h1>
                 <div className="w-full h-[3px] bg-primary rounded-full" />
             </div>
-            <p className="text-5xl font-semibold">{text}</p>
+            <p className="text-4xl font-semibold text-center">{text}</p>
         </div>
     )
 }
