@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Heading from "@/components/ui/heading";
 
 import { items, precise } from "@/utils/imported";
+
 import clsx from "clsx";
 
 export default function Imported() {
@@ -9,19 +10,19 @@ export default function Imported() {
         <>
             <Navbar />
 
-            <main>
+            <main className="bg-background">
                 <Heading heading="Imported Equipmets" text="Global Finds, Local Convenience: Shop Our Imported Collection!" />
 
                 <section className=" flex flex-wrap gap-10 p-5 items-center justify-center lg:w-[90%] mx-auto">
                     {items.map((item, index) => (
-                        <div key={index} className="equipmentcard flex flex-col items-center p-8 w-[300px] lg:w-[300px] h- lg:h-[420px] rounded-md">
+                        <div key={index} className="equipmentcard bg-white flex flex-col items-center p-8 w-[300px] lg:w-[300px] h- lg:h-[420px] rounded-md">
                             <img src={item.company} alt={item.name} className="w-[100px] h-[37px] lg:w-[170px] lg:h-[62px] object-cover" />
                             <img src={item.image} alt={item.name} className="w-[170px] h-[195px] lg:w-[200px] lg:h-[230px] object-cover mb-5" />
                             <p className="text-center text-lg lg:text-xl font-semibold font-mont text-foreground">{item.name}</p>
                         </div>
                     ))}
                 </section>
-                <section className="flex flex-col items-center equipmentcard w-fit xl:mx-auto p-8 rounded-md mt-10 mx-10">
+                <section className="flex flex-col items-center bg-white equipmentcard w-fit xl:mx-auto p-8 rounded-md mt-10 mx-10">
                     <img src="/precise.png" alt="Precise" className="w-[100px] h-[37px] lg:w-[170px] lg:h-[62px] object-cover mb-5" />
 
                     <div className="flex flex-wrap gap-5 lg:gap-10 items-center justify-center">
@@ -34,7 +35,7 @@ export default function Imported() {
                     </div>
                 </section>
 
-                <section className="flex flex-col items-center equipmentcard w-fit mx-auto p-8 rounded-md mt-10 mb-10">
+                <section className="flex flex-col bg-white items-center equipmentcard w-fit mx-auto p-8 rounded-md mt-10 mb-10">
                     <img src="/jendah.png" alt="Jendah" className="w-[100px] h-[37px] lg:w-[170px] lg:h-[62px] object-cover mb-5" />
 
                     <img src="/jendah_2deck4tray.png" alt="Jendah Oven" className="w-[270px] sm:w-[300px] md:w-[50vw] object-cover" />

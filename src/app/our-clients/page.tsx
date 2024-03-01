@@ -16,7 +16,7 @@ export default function Clients() {
 
 
 
-            <main className="px-28">
+            <main className="px-28 bg-background">
                 <Heading heading="Our Clients" text="Built on trust, driven by results." />
 
                 <Tabs defaultValue="hotels" className="w-full text-center">
