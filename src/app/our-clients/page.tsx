@@ -19,7 +19,7 @@ export default function Clients() {
             <main className="px-28">
                 <Heading heading="Our Clients" text="Built on trust, driven by results." />
 
-                <Tabs defaultValue="account" className="w-full text-center">
+                <Tabs defaultValue="hotels" className="w-full text-center">
                     <TabsList className="">
                         <TabsTrigger value="hotels" id="hotels" className="active">Hotels</TabsTrigger>
                         <TabsTrigger value="restaurants">Restaurants</TabsTrigger>
