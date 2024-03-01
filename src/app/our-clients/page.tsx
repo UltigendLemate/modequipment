@@ -32,7 +32,7 @@ export default function Clients() {
                             {
                                 hotels.map((hotel, index) => {
                                     return (
-                                        <div key={index} className="clientcard w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
+                                        <div key={index} className="clientcard bg-white w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
                                             <img src={hotel.image} alt={hotel.name} className="w-[150px] h-[110px] object-cover rounded-md" />
                                         </div>
                                     )
@@ -45,7 +45,7 @@ export default function Clients() {
                             {
                                 restaurants.map((restaurant, index) => {
                                     return (
-                                        <div key={index} className="clientcard w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
+                                        <div key={index} className="clientcard bg-white w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
                                             <img src={restaurant.image} alt={restaurant.name} className="w-[150px] h-[110px] object-cover rounded-md" />
                                         </div>
                                     )
@@ -59,7 +59,7 @@ export default function Clients() {
                             {
                                 hospitals.map((hospital, index) => {
                                     return (
-                                        <div key={index} className="clientcard w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
+                                        <div key={index} className="clientcard bg-white w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
                                             <img src={hospital.image} alt={hospital.name} className="w-[150px] h-[110px] object-cover rounded-md" />
                                         </div>
                                     )
@@ -72,7 +72,7 @@ export default function Clients() {
                             {
                                 colleges.map((college, index) => {
                                     return (
-                                        <div key={index} className="clientcard w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
+                                        <div key={index} className="clientcard bg-white w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
                                             <img src={college.image} alt={college.name} className="w-[150px] h-[110px] object-cover rounded-md" />
                                         </div>
                                     )
@@ -85,7 +85,7 @@ export default function Clients() {
                             {
                                 others.map((other, index) => {
                                     return (
-                                        <div key={index} className="clientcard w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
+                                        <div key={index} className="clientcard bg-white w-[170px] h-[120px] rounded-md flex items-center justify-center m-3">
                                             <img src={other.image} alt={other.name} className="w-[150px] h-[110px] object-cover rounded-md" />
                                         </div>
                                     )

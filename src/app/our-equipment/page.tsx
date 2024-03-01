@@ -1,26 +1,34 @@
+'use client'
+
 import Navbar from "@/components/Navbar";
 import Heading from "@/components/ui/heading";
-
-import { items, precise } from "@/utils/imported";
 import { hot, cold, trolleys } from "@/utils/equipments";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import clsx from "clsx";
+import { useEffect } from "react";
 
 export default function Imported() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+    
+
+    const handleTabChange = () => {
+        window.scrollTo(0, 0);
+        
+    }
+
     return (
         <>
             <Navbar />
 
-
-
             <main className="bg-background">
                 <Heading heading="Our Equipments" text="Maximize Your Potential: Browse Our Equipment Range Now!" />
 
-                <Tabs defaultValue="hot" className="w-full text-center my-7">
+                <Tabs defaultValue="hot" className="w-full text-center my-7" onValueChange={handleTabChange}>
                     <TabsList className="mb-7">
-                        <TabsTrigger value="hot" id="hotels">Hot Equipments</TabsTrigger>
-                        <TabsTrigger value="cold">Cold Equipments</TabsTrigger>
-                        <TabsTrigger value="trolleys">Trolleys</TabsTrigger>
+                        <TabsTrigger value="hot" id="hot">Hot Equipments</TabsTrigger>
+                        <TabsTrigger value="cold" id="cold">Cold Equipments</TabsTrigger>
+                        <TabsTrigger value="trolleys" id="trolleys">Trolleys</TabsTrigger>
 
                     </TabsList>
                     <TabsContent value="hot">
