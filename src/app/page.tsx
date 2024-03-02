@@ -88,7 +88,7 @@ export default function Home() {
                 />
      
               </div>
-              <h5 className='text-md md:text-2xl font-medium'>{item.title}</h5>
+              <h5 className='text-base md:text-2xl font-medium text-center'>{item.title}</h5>
             </div>
           ))}
         </div>
