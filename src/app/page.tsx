@@ -3,6 +3,7 @@ import { HeroParallax } from '@/components/ui/hero-parallax';
 import Navbar from '../components/Navbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import { slides, whyus } from '@/utils/home';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,29 +14,7 @@ import Link from 'next/link';
 
 
 
-const slides = [
-  {
-    title: "Crafting Culinary Dreams, One Kitchen at a Time",
-    subtitle: "Innovative Solutions for Every Budget.",
-    image: "/3.png"
-  },
-  {
-    title: "Expert Design & Installation",
-    subtitle: "Your One-Stop Shop for Commercial Kitchens.",
-    image: "/4.jpg"
-  },
-  {
-    title: "Global Sourcing, Local Expertise",
-    subtitle: "Equipment Solutions for Every Need.",
-    image: "/1.png"
-  },
-  {
-    title: "Build the Kitchen of Your Dreams",
-    subtitle: "Trusted Partner from Start to Finish.",
-    image: "/2.png"
-  },
 
-]
 
 
 
@@ -49,7 +28,7 @@ export default function Home() {
       <section className='w-full '>
         <Swiper pagination={{ clickable: true }} modules={[Pagination, Autoplay]}
           autoplay={{
-            delay: 1500,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           loop={true} className="h-[90vh]">
@@ -69,15 +48,15 @@ export default function Home() {
       </section>
 
 
-     
+
 
       <section >
-        <Heading heading='About Us' text='What is Mod Equipment all about?'/>
+        <Heading heading='About Us' text='What is Mod Equipment all about?' />
         <div className='flex flex-col md:flex-row px-5 md:px-10 gap-8 '>
-        <Image src='/5.jpg' width={600} height={1000} alt="about us image"/>
+          <Image src='/5.jpg' width={600} height={1000} alt="about us image" />
 
-<div className='flex flex-col justify-center'>
-          <p className='text-lg'>MOD Kitchen Equipment Pvt Ltd is a top player in the category Kitchen Equipment Dealers in the Delhi. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Delhi. Over the course of its journey, this business has established a firm foothold in its industry. <br/> <br/>The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company.</p>
+          <div className='flex flex-col justify-center'>
+            <p className='text-lg'>MOD Kitchen Equipment Pvt Ltd is a top player in the category Kitchen Equipment Dealers in the Delhi. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Delhi. Over the course of its journey, this business has established a firm foothold in its industry. <br /> <br />The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company.</p>
             <div className='flex md:gap-7 gap-3 my-5 text-center flex-col md:flex-row text-secondary text-lg '>
               <Link href={'/e-catalog'} className='bg-foreground px-5 py-2 rounded-md md:w-2/5'>Read More</Link>
               <Link href={'/contact'} className='bg-primary px-5 py-2 rounded-md md:w-2/5'>Contact Us</Link>
@@ -94,11 +73,35 @@ export default function Home() {
       </section>
 
 
+      <section className='bg-background max-w-screen-xl mx-auto'>
+        <Heading heading='Why us?' text='Why is Mod Equipment the best?' />
+        <div className="md:flex grid grid-cols-2 md:flex-row md:flex-wrap md:gap-16 gap-5 px-5 justify-center ">
+          {whyus.map((item, index) => (
+            <div key={index} className='flex flex-col items-center gap-3'>
+              <div className='md:w-[220px] w-full px-4 aspect-square'>
+              <lord-icon
+                src={`https://cdn.lordicon.com/${item.icon}.json`}
+                trigger="loop"
+                delay="1000"
+                colors="primary:#303192,secondary:#242424"
+                style={{width: '100%', height: '100%'}}
+                />
+     
+              </div>
+              <h5 className='text-md md:text-2xl font-medium'>{item.title}</h5>
+            </div>
+          ))}
+        </div>
+
+
+      </section>
+
+
 
       <section className='h-screen w-full'></section>
-    
 
-      
+
+
 
     </main>
   );
