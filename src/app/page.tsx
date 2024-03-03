@@ -3,7 +3,7 @@ import { HeroParallax } from '@/components/ui/hero-parallax';
 import Navbar from '../components/Navbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
-import { slides, whyus } from '@/utils/home';
+import { slides, whyus, testimonials } from '@/utils/home';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -79,20 +79,39 @@ export default function Home() {
           {whyus.map((item, index) => (
             <div key={index} className='flex flex-col items-center gap-3'>
               <div className='md:w-[220px] w-full px-4 aspect-square'>
-              <lord-icon
-                src={`https://cdn.lordicon.com/${item.icon}.json`}
-                trigger="loop"
-                delay="1000"
-                colors="primary:#303192,secondary:#242424"
-                style={{width: '100%', height: '100%'}}
+                <lord-icon
+                  src={`https://cdn.lordicon.com/${item.icon}.json`}
+                  trigger="loop"
+                  delay="1000"
+                  colors="primary:#303192,secondary:#242424"
+                  style={{ width: '100%', height: '100%' }}
                 />
-     
+
               </div>
               <h5 className='text-base md:text-2xl font-medium text-center'>{item.title}</h5>
             </div>
           ))}
         </div>
 
+
+      </section>
+
+
+      <section className='my-40 max-w-screen-xl mx-auto'>
+
+
+        <Heading text='What Our Clients Say' heading='testimonials' />
+        <div className='columns-3 space-y-6'>
+          {testimonials.map((t, index) => (
+            <div key={index} className='  p-6 bg-accent border-2 rounded-lg shadow-md'>
+              <p className='text-card-foreground'>{t.text}</p>
+              <div className=''>
+                <p className='font-medium text-primary'>- {t.name}, {t.designation}</p>
+              </div>
+            </div>
+          )
+          )}
+        </div>
 
       </section>
 
