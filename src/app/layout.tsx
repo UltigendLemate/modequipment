@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Montserrat, Poppins } from "next/font/google";
 
 import "./globals.css";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 const mont = Montserrat({
@@ -27,7 +28,8 @@ export default function RootLayout({
 }>) {
   return (
     <html className={`${mont.variable} ${poppins.variable}`} lang="en">
-      <body >{children}</body>
+      <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
+      <body className={`${poppins.className} bg-background text-foreground`}>{children}</body>
     </html>
   );
 }
