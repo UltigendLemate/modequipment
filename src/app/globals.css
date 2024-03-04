@@ -58,5 +58,16 @@
 }
 
 .clientcard { 
-  box-shadow: #00000034 2px 2px 15px; 
+  box-shadow: #00000025 2px 2px 15px; 
 }
+
+.equipmentcard {
+  border: 1px solid #00000025;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.equipmentcard:hover {
+  box-shadow: #0000001a 2px 2px 15px; 
+  transition: box-shadow 0.3s ease-in-out;
+}
+

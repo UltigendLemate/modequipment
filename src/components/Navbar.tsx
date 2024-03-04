@@ -12,19 +12,19 @@ const navLinks = [
     },
     {
         title: "Our Equipment",
-        link: "#",
+        link: "/our-equipment",
         subMenu: [
             {
                 title: "Hot Equipment",
-                link: "/hot-equipment"
+                link: "/our-equipment#hot"
             },
             {
                 title: "Cold Equipment",
-                link: "/cold-equipment"
+                link: "/our-equipment#cold"
             },
             {
                 title: "Trolleys",
-                link: "/trolleys"
+                link: "/our-equipment#trolleys"
             }
         ]
     },
