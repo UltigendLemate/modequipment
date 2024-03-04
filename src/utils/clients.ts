@@ -45,7 +45,7 @@ const hotels = [
     }
 ];
 
-const colleges = [
+const Education = [
     {
         name: "Chitkara",
         image: "/chitkara.png"
@@ -64,7 +64,7 @@ const colleges = [
     }
 ];
 
-const hospitals = [
+const Healthcare = [
     {
         name: "Max",
         image: "/max.png"
@@ -136,8 +136,14 @@ const others = [
         name: "Pioneer Labs",
         image: "/pioneer.png"
     }
-
 ];
 
+const clients = [
+    { title: 'Hotels', items: hotels },
+    { title: 'Restaurants', items: restaurants },
+    { title: 'Healthcare', items: Healthcare },
+    { title: 'Education', items: Education },
+    { title: 'Others', items: others }
+];
 
-export {hotels, colleges, hospitals, restaurants, others};
+export { clients };
