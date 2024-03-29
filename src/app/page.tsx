@@ -25,7 +25,7 @@ export default function Home() {
 
       {/* <HeroParallax products = {products}/> */}
 
-      <section className='w-full '>
+      <section className='w-full -z-10'>
         <Swiper pagination={{ clickable: true }} modules={[Pagination, Autoplay]}
           autoplay={{
             delay: 2500,
@@ -119,6 +119,8 @@ export default function Home() {
 
       <section className='h-screen w-full'></section>
 
+
+      
 
 
 

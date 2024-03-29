@@ -52,6 +52,11 @@
   }
 }
 
+:root {
+  perspective: 10px;
+  z-index: 0;
+}
+
 .hero{
   background : url("/4.jpg") no-repeat center center/cover;
   backdrop-filter: opacity(0.1);
@@ -69,5 +74,9 @@
 .equipmentcard:hover {
   box-shadow: #0000001a 2px 2px 15px; 
   transition: box-shadow 0.3s ease-in-out;
+}
+
+.contactcard {
+  box-shadow: #00000017 2px 2px 15px; 
 }
 

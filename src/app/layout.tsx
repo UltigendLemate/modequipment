@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className={`${mont.variable} ${poppins.variable}`} lang="en">
+    <html className={`${mont.variable} ${poppins.variable} z-0`} lang="en">
       <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
       <body className={`${poppins.className} bg-background text-foreground`}>{children}</body>
     </html>
