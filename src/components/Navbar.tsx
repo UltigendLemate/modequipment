@@ -148,7 +148,7 @@ const Navbar = () => {
 
                                         {navLinks.map((link, index) => (
                                             <li key={index} className="relative">
-                                                <a href="#" onClick={() => handleMobileOptionClick(index)} className="flex items-center justify-between">
+                                                <a href={link.link} onClick={() => handleMobileOptionClick(index)} className="flex items-center justify-between">
                                                     {link.title}
                                                     {link.subMenu && <ChevronRight size={15} className="mt-1" />}
                                                 </a>
