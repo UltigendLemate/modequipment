@@ -7,12 +7,12 @@ import React, { useState } from 'react';
 const navLinks = [
     {
         title: "About Us",
-        link: "/about",
+        link: "/#about",
         subMenu: null
     },
     {
         title: "Our Equipment",
-        link: "/our-equipment",
+        link: "#",
         subMenu: [
             {
                 title: "Hot Equipment",
@@ -39,23 +39,23 @@ const navLinks = [
         subMenu: [
             {
                 title: "Kitchen Layout Solutions",
-                link: "/kitchen-layout"
+                link: "/design#kitchen-layout"
             },
             {
                 title: "LPG Pipeline",
-                link: "/lpg-pipeline"
+                link: "/design#lpg"
             },
             {
                 title: "Exhaust System Ducting",
-                link: "/exhaust-system"
+                link: "/design#ducting"
             },
             {
                 title: "Fresh Air Supply System",
-                link: "/fresh-air-supply"
+                link: "/design#fresh-air"
             },
             {
                 title: "AMC",
-                link: "/amc"
+                link: "/design#amc"
             }
 
         ]
@@ -103,7 +103,7 @@ const Navbar = () => {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="flex justify-between items-center">
                         <div className="flex-shrink-0">
-                            <a href="#" className="text-xl font-bold">
+                            <a href="/" className="text-xl font-bold">
                                 <Image src="/modlogo.jpg" alt='logo' width={100} height={50} />
                             </a>
                         </div>

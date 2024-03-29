@@ -50,9 +50,9 @@ export default function Home() {
 
 
 
-      <section >
+      <section id='about' >
         <Heading heading='About Us' text='What is Mod Equipment all about?' />
-        <div className='flex flex-col md:flex-row px-5 md:px-10 gap-8 '>
+        <div className='flex flex-col md:flex-row px-5 md:px-10 gap-8 ' >
           <Image src='/5.jpg' width={600} height={1000} alt="about us image" />
 
           <div className='flex flex-col justify-center'>
@@ -97,11 +97,11 @@ export default function Home() {
       </section>
 
 
-      <section className='my-40 max-w-screen-xl mx-auto'>
+      <section className='md:mt-28 md:mb-20 my-20 max-w-screen-xl mx-auto'>
 
 
         <Heading text='What Our Clients Say' heading='testimonials' />
-        <div className='columns-3 space-y-6'>
+        <div className='md:columns-3 space-y-6'>
           {testimonials.map((t, index) => (
             <div key={index} className='  p-6 bg-accent border-2 rounded-lg shadow-md'>
               <p className='text-card-foreground'>{t.text}</p>
@@ -114,16 +114,6 @@ export default function Home() {
         </div>
 
       </section>
-
-
-
-      <section className='h-screen w-full'></section>
-
-
-      
-
-
-
     </main>
   );
 }
