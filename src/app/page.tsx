@@ -67,7 +67,7 @@ export default function Home() {
       </section>
 
       <section className='my-10 md:my-24'>
-        <div className='mx-auto max-w-screen-xl px-10 bg-primary h-60 md:h-52 text-secondary md:text-4xl text-2xl text-center flex justify-center items-center'>
+        <div className='mx-auto max-w-screen-xl px-10 bg-primary py-10 md:py-16 text-secondary md:text-5xl text-4xl leading-relaxed text-center flex justify-center items-center'>
           <h3>Renovate. Innovate. Celebrate.</h3>
         </div>
       </section>
