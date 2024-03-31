@@ -58,8 +58,8 @@ export default function Home() {
           <div className='flex flex-col justify-center'>
             <p className='text-lg'>MOD Kitchen Equipment Pvt Ltd is a top player in the category Kitchen Equipment Dealers in the Delhi. This well-known establishment acts as a one-stop destination servicing customers both local and from other parts of Delhi. Over the course of its journey, this business has established a firm foothold in its industry. <br /> <br />The belief that customer satisfaction is as important as their products and services, have helped this establishment garner a vast base of customers, which continues to grow by the day. This business employs individuals that are dedicated towards their respective roles and put in a lot of effort to achieve the common vision and larger goals of the company.</p>
             <div className='flex md:gap-7 gap-3 my-5 text-center flex-col md:flex-row text-secondary text-lg '>
-              <Link href={'/e-catalog'} className='bg-foreground px-5 py-2 rounded-md md:w-2/5'>Read More</Link>
-              <Link href={'/contact'} className='bg-primary px-5 py-2 rounded-md md:w-2/5'>Contact Us</Link>
+              <Link href={'/e-catalog.pdf'} className='bg-foreground px-5 py-2 rounded-md md:w-2/5'>Read More</Link>
+              <Link href={'/contact-us'} className='bg-primary px-5 py-2 rounded-md md:w-2/5'>Contact Us</Link>
             </div>
           </div>
 
