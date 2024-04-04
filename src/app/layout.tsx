@@ -31,7 +31,9 @@ export default function RootLayout({
     <html className={`${mont.variable} ${poppins.variable} z-0`} lang="en">
       <Script src="https://cdn.lordicon.com/lordicon.js"></Script>
       <body className={`${poppins.className} bg-background text-foreground flex flex-col justify-between min-h-screen`}>
-        {children}
+        <main>
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
