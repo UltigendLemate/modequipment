@@ -10,16 +10,15 @@ export default function Contact() {
 
             <section className="container mx-auto px-4 py-8">
 
-                <Heading text='Feel free to teach out to us' heading='Contact Us' />
+                <Heading text='Feel free to reach out to us' heading='Contact Us' />
                 <div className='flex flex-col lg:flex-row  gap-10 items-center justify-around mt-3'>
-                    <div className=' rounded-md overflow-hidden flex-shrink w-full md:w-[45rem] lg:w-[55rem] h-[20rem] sm:h-[25rem] md:h-[28rem] lg:h-[32rem]'>
+                    <div className=' rounded-md overflow-hidden flex-shrink w-full md:w-[45rem] lg:w-[55rem] h-[20rem] sm:h-[22rem] md:h-[24rem] lg:h-[26rem]'>
                         <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0567307416!2d77.17586137550175!3d28.658019975650813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d028bfddd3589%3A0xdeeb6aef194d99e9!2sA-26B%2C%20Gyan%20Singh%20Rd%2C%20Patel%20Nagar%2C%20Delhi%2C%20110008!5e0!3m2!1sen!2sin!4v1712233880878!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
-                            
-                            src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=3A,%20Street%20NO.4,%20Block%20NO.%20RZ,%20Anand%20Parbat%20Industrial%20Area%20New%20Delhi-110005+(Modequipments)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
-                        >
-                        </iframe>
+                        />
+
                     </div>
 
                     <div className='flex flex-col gap-5'>
@@ -59,16 +58,6 @@ export default function Contact() {
                             <div className=''>
                                 <p className='text-muted-foreground text-xl md:text-2xl font-mont'>Telephone</p>
                                 <p className='text-foreground text-base sm:text-lg md:text-xl font-mont font-semibold'>+91-11-28763958,28762343</p>
-                            </div>
-                        </div>
-
-                        <div className='flex gap-7 items-center'>
-                            <div className='w-[3.4rem] h-[3.4rem] sm:w-[4.1rem] sm:h-[4.1rem] rounded-full bg-primary flex items-center justify-center'>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className='w-[45%]'><path className="fill-background" d="M128 64v96h64V64H386.7L416 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L432 18.7C420 6.7 403.7 0 386.7 0H192c-35.3 0-64 28.7-64 64zM0 160V480c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H32c-17.7 0-32 14.3-32 32zm480 32H128V480c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM256 256a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm96 32a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm32 96a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM224 416a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z" /></svg>
-                            </div>
-                            <div className=''>
-                                <p className='text-muted-foreground text-xl md:text-2xl font-mont'>Fax</p>
-                                <p className='text-foreground text-base sm:text-lg md:text-xl font-mont font-semibold'>+91-11-28762342</p>
                             </div>
                         </div>
 

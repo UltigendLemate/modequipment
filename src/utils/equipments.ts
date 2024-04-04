@@ -4,16 +4,28 @@ const hot = [
         image: "/tilting-bulk-cooker.png"
     },
     {
-        name: "Idly Steamer",
-        image: "/idly-steamer.png"
+        name: "Tilting Brat Pan",
+        image: "/tilting-brat-pan.png"
     },
     {
         name: "Hot Plate",
         image: "/hot-plate.png"
     },
     {
+        name: "Stock Pot Range",
+        image: "/stock-pot-range.png"
+    },
+    {
+        name: "Two Burner Range",
+        image: "/two-burner-range.png"
+    },
+    {
         name: "Four Burner Range",
         image: "/four-burner-range.png"
+    },
+    {
+        name: "Idly Steamer",
+        image: "/idly-steamer.png"
     },
     {
         name: "Water/Milk Boiler",
@@ -24,21 +36,9 @@ const hot = [
         image: "/sandwich-griller.png"
     },
     {
-        name: "Tilting Brat Pan",
-        image: "/tilting-brat-pan.png"
-    },
-    {
         name: "Potato Peeler",
         image: "/potato-peeler.png"
     },
-    {
-        name: "Stock Pot Range",
-        image: "/stock-pot-range.png"
-    },
-    {
-        name: "Two Burner Range",
-        image: "/two-burner-range.png"
-    }
 ];
 
 const cold = [
@@ -86,7 +86,7 @@ const trolleys = [
         image: "/flambay-trolley.png"
     },
     {
-        name: "Mobile Bottle Chiller",
+        name: "Bar Trolley",
         image: "/mobile-bottle-chiller.png"
     },
     {
@@ -94,7 +94,7 @@ const trolleys = [
         image: "/room-service-trolley.png"
     },
     {
-        name: "Food Carrier Box",
+        name: "Hot Case",
         image: "/food-carrier-box.png"
     },
     {
@@ -118,7 +118,7 @@ const trolleys = [
         image: "/sink-trolley.png"
     },
     {
-        name: "Vegetable Trolly",
+        name: "Linen Trolly",
         image: "/vegetable-trolley.png"
     },
     {
@@ -138,15 +138,15 @@ const trolleys = [
         image: "/garbage-bin-trolley.png"
     },
     {
-        name: "Housekeeping Maid Cart",
+        name: "Housekeeping Maids Cart",
         image: "/housekeeping-maid-cart.png"
     },
     {
-        name: "Solid Linen Trolley",
+        name: "Soiled Linen Trolley",
         image: "/solid-linen-trolley.png"
     },
     {
-        name: "Uniform Trolley",
+        name: "Meat Hanging Trolley",
         image: "/uniform-trolley.png"
     },
     {
@@ -170,7 +170,7 @@ const trolleys = [
         image: "/fresh-linen-trolley.png"
     },
     {
-        name: "Laundry Valet Cart",
+        name: "Wet Linen Trolley",
         image: "/laundry-valet-cart.png"
     },
     {

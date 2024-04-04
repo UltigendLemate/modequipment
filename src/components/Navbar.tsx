@@ -104,7 +104,7 @@ const Navbar = () => {
                     <div className="flex justify-between items-center">
                         <div className="flex-shrink-0">
                             <a href="/" className="text-xl font-bold">
-                                <Image src="/modlogo.jpg" alt='logo' width={100} height={50} />
+                                <Image src="/modlogo.jpg" alt='logo' width={140} height={50} />
                             </a>
                         </div>
                         <div className="hidden md:block">

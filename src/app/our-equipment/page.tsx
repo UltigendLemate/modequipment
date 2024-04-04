@@ -21,7 +21,7 @@ export default function Imported() {
             <Navbar />
 
             <main className="bg-background">
-                <Heading heading="Our Equipments" text="Browse Our Equipment" />
+                <Heading heading="Our Equipment" text="Explore Our Inventory" />
 
                 <Tabs defaultValue="hot" className="w-full text-center my-7" onValueChange={handleTabChange}>
                     <TabsList className="mb-7">
