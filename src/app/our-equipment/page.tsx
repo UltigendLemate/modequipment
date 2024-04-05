@@ -25,8 +25,8 @@ export default function Imported() {
 
                 <Tabs defaultValue="hot" className="w-full text-center my-7" onValueChange={handleTabChange}>
                     <TabsList className="mb-7">
-                        <TabsTrigger value="hot" id="hot">Hot Equipments</TabsTrigger>
-                        <TabsTrigger value="cold" id="cold">Cold Equipments</TabsTrigger>
+                        <TabsTrigger value="hot" id="hot">Hot Equipment</TabsTrigger>
+                        <TabsTrigger value="cold" id="cold">Cold Equipment</TabsTrigger>
                         <TabsTrigger value="trolleys" id="trolleys" className="min-w-[7.5rem]">Trolleys</TabsTrigger>
                     </TabsList>
                     <TabsContent value="hot">

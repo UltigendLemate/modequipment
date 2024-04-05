@@ -43,31 +43,31 @@ const hot = [
 
 const cold = [
     {
-        name: "MOD-11.75",
+        name: "MOD-11.75 - Under Counter Refrigerator with G.N. Pans",
         image: "/MOD11.png"
     },
     {
-        name: "MOD-15.70",
+        name: "MOD-15.70 - Under Counter Refrigerator with two doors",
         image: "/MOD15.70.png"
     },
     {
-        name: "MOD-15.75",
+        name: "MOD-15.75 - Under Counter Refrigerator with drawers",
         image: "/MOD15.png"
     },
     {
-        name: "MOD-17.75",
+        name: "MOD-17.75 - Under Counter Refrigerator with glass door",
         image: "/MOD17.75.png"
     },
     {
-        name: "MOD-75.75",
+        name: "MOD-75.75 - Two door upright chiller/freezer",
         image: "/MOD75.png"
     },
     {
-        name: "MOD-120.75",
+        name: "MOD-120.75 - Four door upright chiller/freezer",
         image: "/MOD120.png"
     },
     {
-        name: "MOD-203.45",
+        name: "MOD-203.45 - Table Top Cold Bain Marie",
         image: "/MOD203.png"
     },
     {
