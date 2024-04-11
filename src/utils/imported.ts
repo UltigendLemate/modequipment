@@ -5,11 +5,6 @@ const items = [
         name: "Cutlery Dryer"
     },
     {
-        company: "/fiamma.png",
-        name: "Beverage Dispenser",
-        image: "/beverage-dispenser.png"
-    },
-    {
         company: "/ypt.png",
         name: "Chinese Wok Range",
         image: "/chinese-wok-range.png"
@@ -25,17 +20,12 @@ const items = [
         image: "/spar-mixer.png"
     },
     {
-        company: "/inoxtrend.png",
-        name: "Combi Oven",
-        image: "/combi-oven.png"
-    },
-    {
         company: "/electrolux.png",
         name: "Refrigeration Equipment",
         image: "/refrigeration.png"
     },
     {
-        company: "/lamber.png",
+        company: "/ozti.png",
         name: "Glass and Dishwashers",
         image: "/glass-and-dishwashers.png"
     },
