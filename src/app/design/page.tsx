@@ -35,9 +35,9 @@ export default function Design() {
                         <h3 className="text-2xl mb-5 md:text-4xl font-semibold text-center ">Kitchen is the heart of the Hospitality Industry.</h3>
                         <p className="px-5 text-left text-xl max-w-screen-lg">
 
-                            Conventional kitchen planning and layout designing are major concerns before the execution of the kitchen starts. The kitchen's layout must ensure the best space utilization along with easy movement of movable equipment in the kitchen corridors. <br /><br />
+                            Conventional kitchen planning and layout designing are major concerns before the execution of the kitchen starts. The kitchen&apos;s layout must ensure the best space utilization along with easy movement of movable equipment in the kitchen corridors. <br /><br />
 
-                            MOD's design team works hard on the layout designing of every project to ensure the practical implementation of equipment in the provided space. MOD's Design Team has the main aim of making suitable utilization of space so that every section of the kitchen has enough space to perform operations with ease. Every kitchen has an optimal workflow. With the help of skilled kitchen designers, we can design custom kitchen environments based on operational needs and the unique needs of the chef's menu. The result is more efficient, fluid kitchens where inspiration thrives.</p>
+                            MOD&apos;s design team works hard on the layout designing of every project to ensure the practical implementation of equipment in the provided space. MOD&apos;s Design Team has the main aim of making suitable utilization of space so that every section of the kitchen has enough space to perform operations with ease. Every kitchen has an optimal workflow. With the help of skilled kitchen designers, we can design custom kitchen environments based on operational needs and the unique needs of the chef&apos;s menu. The result is more efficient, fluid kitchens where inspiration thrives.</p>
                     </TabsContent>
 
                     <TabsContent value="fresh-air" className="px-5 text-lg grid justify-center">
@@ -58,7 +58,7 @@ export default function Design() {
                         {/* <h3 className="text-2xl mb-5 md:text-4xl font-semibold text-center ">Kitchen is the heart of the Hospitality Industry.</h3> */}
                         <p className="text-left text-xl max-w-screen-lg">
 
-                            Exhaust System & Ducting in the kitchen are one of the most important parts, ensuring proper working conditions for the chefs and others. Traditionally, the exhaust system just meant the installation of exhaust fans in the kitchen area. But now, in today's world, the change in technology has given a new meaning to the exhaust system and ducting. Exhaust hoods with proper suppression systems are the latest technology, which easily manages to create a healthy working atmosphere in the kitchen by eliminating smoke.</p>
+                            Exhaust System & Ducting in the kitchen are one of the most important parts, ensuring proper working conditions for the chefs and others. Traditionally, the exhaust system just meant the installation of exhaust fans in the kitchen area. But now, in today&apos;s world, the change in technology has given a new meaning to the exhaust system and ducting. Exhaust hoods with proper suppression systems are the latest technology, which easily manages to create a healthy working atmosphere in the kitchen by eliminating smoke.</p>
 
                         <Image src={"/mod_ducting.jpg"} alt="MOD's scientific principle of calculation" className="mt-5" width={1000} height={400} />
                         <span className="text-sm">MOD&apos;s scientific principle of calculation</span>
@@ -68,7 +68,7 @@ export default function Design() {
                     <TabsContent value="amc" className="px-5 text-lg grid justify-center">
                         {/* <h3 className="text-2xl mb-5 md:text-4xl font-semibold text-center ">Kitchen is the heart of the Hospitality Industry.</h3> */}
                         <p className="text-left text-xl max-w-screen-lg">
-                            Keeping your kitchen running smoothly for many years is imperative to the success of your operation. The Happy Kitchen Promise Program is a new offering exclusively from MOD for its valued customers. By extending this promise, we demonstrate that at MOD, we always care for your kitchen needs. It's a promise that ensures complete freedom from all worries related to our products.
+                            Keeping your kitchen running smoothly for many years is imperative to the success of your operation. The Happy Kitchen Promise Program is a new offering exclusively from MOD for its valued customers. By extending this promise, we demonstrate that at MOD, we always care for your kitchen needs. It&apos;s a promise that ensures complete freedom from all worries related to our products.
                             <br /><br />
                             Happy Kitchen Promise Programs ensures that we are always there at each step.
                             <br /><br />
@@ -82,7 +82,7 @@ export default function Design() {
                         <h3 className="text-2xl mb-5 md:text-4xl font-semibold text-center ">L.P.G is the necessity of every Kitchen.</h3>
                         <p className=" text-left text-xl max-w-screen-lg">
 
-                            Ensuring a standardized L.P.G pipeline in the kitchen is the main objective of MOD's Installation team. L.P.G Pipeline Installation requires an experienced workforce to maintain the safety of the kitchen and its equipment.<br /><br />
+                            Ensuring a standardized L.P.G pipeline in the kitchen is the main objective of MOD&apos;s Installation team. L.P.G Pipeline Installation requires an experienced workforce to maintain the safety of the kitchen and its equipment.<br /><br />
                             MOD has its own specialized L.P.G Pipeline Installation team who ensure proper fitting as per ISI standards and the safety of the kitchen environment. We use the best quality branded C-class pipelines, pressure regulators, valves, and other supporting components to ensure compliance with safety norms.</p>
                         <h3 className="text-2xl my-5 md:text-4xl font-semibold text-center ">Show In Process</h3>
                         <ul className="list-disc pl-5">
