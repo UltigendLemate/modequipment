@@ -13,12 +13,12 @@ export default function Contact() {
                 <Heading text='Feel free to reach out to us' heading='Contact Us' />
                 <div className='flex flex-col lg:flex-row  gap-10 items-center justify-around mt-3'>
                     <div className=' rounded-md overflow-hidden flex-shrink w-full md:w-[45rem] lg:w-[55rem] h-[20rem] sm:h-[22rem] md:h-[24rem] lg:h-[26rem]'>
+                        
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0567307416!2d77.17586137550175!3d28.658019975650813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d028bfddd3589%3A0xdeeb6aef194d99e9!2sA-26B%2C%20Gyan%20Singh%20Rd%2C%20Patel%20Nagar%2C%20Delhi%2C%20110008!5e0!3m2!1sen!2sin!4v1712233880878!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0578754046146!2d77.17855159999999!3d28.657985699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d028963a368b1%3A0x668b5273dc5c9774!2sMod%20Kitchen%20Equipment%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1713115938791!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                         />
-
                     </div>
 
                     <div className='flex flex-col gap-5'>

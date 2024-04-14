@@ -105,9 +105,9 @@ export default function Home() {
           {testimonials.map((t, index) => (
             <div key={index} className='  p-6 bg-accent border-2 rounded-lg shadow-md'>
               <p className='text-card-foreground'>{t.text}</p>
-              <div className=''>
+              {/* <div className=''>
                 <p className='font-medium text-primary'>- {t.name}, {t.designation}</p>
-              </div>
+              </div> */}
             </div>
           )
           )}
