@@ -14,7 +14,7 @@ export function AaharInvite({ imageUrl, altText }: PopupProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 1000); // Delay the popup appearance
+    const timer = setTimeout(() => setIsOpen(true), 3000); // Delay the popup appearance
     return () => clearTimeout(timer);
   }, []);
 
