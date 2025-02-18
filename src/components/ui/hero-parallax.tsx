@@ -61,12 +61,13 @@ export const HeroParallax = ({
     >
       <Header />
       <div className="relative">
-      <section className='flex absolute items-center min-h-[50vh]  justify-center text-center bg-background'>
-        {/* <div className='absolute top-0 left-0 h-full w-full bg-blue-950 z-5 opacity-45'></div> */}
-      <h1 className='text-6xl text-gradient font-bold z-10'>
-        Your One Stop Solution to Planning Of Complete Commercial Kitchen & Catering Equipment 
-        </h1>
-      </section>
+        <section className="flex absolute items-center min-h-[50vh]  justify-center text-center bg-background">
+          {/* <div className='absolute top-0 left-0 h-full w-full bg-blue-950 z-5 opacity-45'></div> */}
+          <h1 className="text-6xl text-gradient font-bold z-10">
+            Your One Stop Solution to Planning Of Complete Commercial Kitchen &
+            Catering Equipment
+          </h1>
+        </section>
       </div>
       <motion.div
         style={{
@@ -116,8 +117,10 @@ export const Header = () => {
         Crafting Culinary Dreams, <br /> One Kitchen at a Time
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 ">
-
-        At MOD, we believe in the power of perfectly equipped kitchens to empower culinary dreams. From concept to completion, we collaborate with you to craft the ideal commercial space, one that ignites your creativity and fuels your culinary ambitions. 
+        At MOD, we believe in the power of perfectly equipped kitchens to
+        empower culinary dreams. From concept to completion, we collaborate with
+        you to craft the ideal commercial space, one that ignites your
+        creativity and fuels your culinary ambitions.
       </p>
     </div>
   );
