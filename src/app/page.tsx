@@ -10,13 +10,13 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import Heading from "@/components/ui/heading";
 import Link from "next/link";
-import { AaharInvite } from "@/components/AaharInvite";
+// import { AaharInvite } from "@/components/AaharInvite";
 
 export default function Home() {
   return (
     <main className="bg-background text-foreground ">
       <Navbar />
-      <AaharInvite imageUrl="/aahar.jpg" altText="Aahar Invite" />
+      {/* <AaharInvite imageUrl="/aahar.jpg" altText="Aahar Invite" /> */}
 
       {/* <HeroParallax products = {products}/> */}
 
